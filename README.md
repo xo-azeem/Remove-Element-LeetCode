@@ -15,12 +15,11 @@ int val = ...; // Value to remove
 int[] expectedNums = [...]; // The expected answer with correct length. It is sorted with no values equaling val.
 
 int k = removeElement(nums, val); // Calls your implementation
-
 assert k == expectedNums.length;
-sort(nums, 0, k); // Sort the first k elements of nums
+sort(nums, 0, k); // Sort the first k elements of nums</br>
 for (int i = 0; i < actualLength; i++) </br>{
     </br>&nbsp;&nbsp;&nbsp;&nbsp;assert nums[i] == expectedNums[i];
-</br>}
+</br>}</br>
 If all assertions pass, then your solution will be accepted.
 
 Example 1:
