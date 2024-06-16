@@ -18,9 +18,9 @@ int k = removeElement(nums, val); // Calls your implementation
 
 assert k == expectedNums.length;
 sort(nums, 0, k); // Sort the first k elements of nums
-for (int i = 0; i < actualLength; i++) <\br>{
-    <\br>&nbsp;&nbsp;&nbsp;&nbsp;assert nums[i] == expectedNums[i];
-<\br>}
+for (int i = 0; i < actualLength; i++) </br>{
+    </br>&nbsp;&nbsp;&nbsp;&nbsp;assert nums[i] == expectedNums[i];
+</br>}
 If all assertions pass, then your solution will be accepted.
 
 Example 1:
