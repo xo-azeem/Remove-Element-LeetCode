@@ -10,16 +10,15 @@ Custom Judge:
 
 The judge will test your solution with the following code:
 
-int[] nums = [...]; // Input array
-int val = ...; // Value to remove
-int[] expectedNums = [...]; // The expected answer with correct length. It is sorted with no values equaling val.
-
-int k = removeElement(nums, val); // Calls your implementation
-assert k == expectedNums.length;
-sort(nums, 0, k); // Sort the first k elements of nums</br>
+int[] nums = [...]; // Input array</br>
+int val = ...; // Value to remove</br>
+int[] expectedNums = [...]; // The expected answer with correct length. It is sorted with no values equaling val.</br>
+int k = removeElement(nums, val); // Calls your implementation</br>
+assert k == expectedNums.length;</br>
+sort(nums, 0, k); // Sort the first k elements of nums</br></br>
 for (int i = 0; i < actualLength; i++) </br>{
     </br>&nbsp;&nbsp;&nbsp;&nbsp;assert nums[i] == expectedNums[i];
-</br>}</br>
+</br>}</br></br>
 If all assertions pass, then your solution will be accepted.
 
 Example 1:
